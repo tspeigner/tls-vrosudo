@@ -1,8 +1,6 @@
 class vrosudo {
   user { 'vro':
     ensure   => present,
-    gid      => '600',
-    uid      => '600',
     comment  => 'VRO Plugin User',
     shell    => '/bin/bash',
     password => pw_hash('buckle fiat flawed', 'SHA-512', 'mysalt'),
