@@ -7,10 +7,10 @@ class vrosudo {
   }
 
   file { '/etc/sudoers.d/vro':
-    ensure => file,
-    mode   => '0440',
-    owner  => 'root',
-    group  => 'root',
-    source => 'puppet:///modules/vrosudo/vro'
+    ensure  => file,
+    mode    => '0440',
+    owner   => 'root',
+    group   => 'root',
+    content => epp('/vrosudo/vro.epp'),
   }
 }
