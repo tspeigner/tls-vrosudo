@@ -15,7 +15,7 @@ Used in conjunction with other VRO/VRA modules
 
 ## Dependencies
 
-Using the pw_hash function provided by the puppetlabs/stdlib 
+Using the pw_hash function provided by the puppetlabs/stdlib (https://forge.puppet.com/puppetlabs/stdlib)
 
    password => pw_hash('mypassword', 'SHA-512', 'mysalt'),
 
