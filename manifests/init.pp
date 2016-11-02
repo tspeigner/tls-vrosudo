@@ -11,6 +11,6 @@ class vrosudo {
     mode    => '0440',
     owner   => 'root',
     group   => 'root',
-    content => epp('/vrosudo/vro.epp'),
+    content => epp('vrosudo/vro.epp'),
   }
 }
