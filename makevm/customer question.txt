@@ -1,0 +1,10 @@
+How to automate with the vSphere module.
+
+I can create a VM, but immediately after it is powered on, I must either
+
+* rename the VM, or
+* join it to Active Directory with a new name
+
+How can I push commands to take immediate effect on a Puppet client rather than wait for the Puppet Agent on the client to pull a command from the Puppet Master?
+
+  Install agent command - sent through
