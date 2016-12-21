@@ -1,0 +1,28 @@
+Setting up Atom for Puppet success
+
+  Install atom
+  Install:
+    1. puppet-lint (http://puppet-lint.com/)
+        (command line) sudo gem install puppet-lint
+    2. Git-Plus - use all git commands (https://atom.io/packages/git-plus)
+    3. Terminal-Plus - Terminal Plugin for Atom. (npm, Python, Xcode required) (https://atom.io/packages/terminal-plus)
+        Install npm (brew install npm)
+        npm install -g node-gyp (requirement for Terminal)
+        Install Command Line Tools from Xcode > Xcode -> Preferences -> Downloads
+    4. Install vim-mode-plus (https://atom.io/packages/vim-mode-plus)
+    5. Browser-Plus - Built-in navigation shortcuts. Browser pane (https://atom.io/packages/browser-plus)
+    6. Language-Puppet - Support for Puppet language
+    7. Set-Icons - Icons per supported syntax.
+
+  Use:
+    1. puppet-lint
+        puppet-lint will run each time you save the file.
+    2. Git-Plus
+        Showing the Git-Plus Palette
+
+          Cmd-Shift-H on MacOS
+          Ctrl-Shift-H on Windows + Linux
+          Git Plus: Menu on the atom command palette.
+
+          Commands can be found here: https://atom.io/packages/git-plus
+    3.

@@ -1,0 +1,10 @@
+vro-plugin-user
+
+  needs to have sudo rules, which allow the user to allow (allow_commands) and disallow (disallow_commands, don't remove maseter or mcollective nodes)
+
+  the PE RBAC
+    Role - node => view node in PDB
+    User - Puppet VRO Plugin
+    Permission - vro-plugin
+
+    Make password generic (puppetlabs)

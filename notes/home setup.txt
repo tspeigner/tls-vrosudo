@@ -1,0 +1,17 @@
+### Hardware Setup ###
+
+
+### Network Setup ###
+
+### Puppet Setup ###
+
+### Node Setup ###
+
+* manage
+  -- .zshrc
+  -- packages
+  -- users
+  -- webserver
+  -- dns
+  -- ntp
+  -- etc.
