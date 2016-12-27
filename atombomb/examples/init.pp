@@ -1,1 +1,1 @@
-include ::atombomb
+include atombomb::windows
